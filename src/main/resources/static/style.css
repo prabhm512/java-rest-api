@@ -1,0 +1,13 @@
+.mathForm {
+    margin: auto;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 10px
+}

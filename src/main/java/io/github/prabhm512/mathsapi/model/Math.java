@@ -2,11 +2,11 @@ package io.github.prabhm512.mathsapi.model;
 
 public class Math {
 	
-	private Integer num1;
-	private Integer num2;
+	private String num1;
+	private String num2;
 	private String operation;
 
-    public Math(int num1, int num2, String operation) {
+    public Math(String num1, String num2, String operation) {
         this.num1 = num1;
         this.num2 = num2;
         this.operation = operation;
@@ -14,11 +14,11 @@ public class Math {
 
     // Getters
     public int getNum1() {
-        return num1;
+        return Integer.parseInt(num1);
     }
 
     public int getNum2() {
-        return num2;
+        return Integer.parseInt(num2);
     }
 
     public String getOperation() {
@@ -26,11 +26,11 @@ public class Math {
     }
 
     // Setters
-    public void setNum1(int num1) {
+    public void setNum1(String num1) {
         this.num1 = num1;
     }
 
-    public void setNum2(int num2) {
+    public void setNum2(String num2) {
         this.num2 = num2;
     }
 
