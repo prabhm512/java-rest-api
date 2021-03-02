@@ -54,6 +54,7 @@
                         
             // Put response after it has been converted to JSON
             $.post("/api/maths", value).then(() => {
+                // $.get("/api/maths");
                 // Clear form fields
                 document.querySelector(".firstNum").value = "";
                 document.querySelector(".secondNum").value = "";
