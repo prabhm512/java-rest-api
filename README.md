@@ -8,6 +8,7 @@ This is a simple app that allows users to enter 2 numbers and an operation. A re
 [Installation](#installation)<br>
 [Usage](#usage)<br>
 [Tech Stack](#tech-stack)<br>
+[Screenshots](#screenshots)<br>
 [Future Development](#directions-for-future-development)<br>
 [Author](#author)<br>
 [Questions](#questions)
@@ -33,6 +34,16 @@ You should see your input and a result displayed as a JSON Array. Please note th
 - Java Spring Framework
 - Apache Maven
 - Thymeleaf
+
+## Screenshots 
+
+1. Expected output on http://localhost:8080
+
+<img src="./src/main/resources/static/assets/form.png">
+
+2. Expected output on http://localhost:8080/api/maths
+
+<img src="./src/main/resources/static/assets/api.png">
 
 ## Directions for Future Development
 
